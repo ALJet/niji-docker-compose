@@ -1,0 +1,26 @@
+{% load i18n %}
+<div class="panel panel-default">
+    <div class="panel-heading">NIJI APP</div>
+    <div class="panel-body">
+        NIJI 是一个Django的开源论坛项目    -- Modify and Build by LJL
+
+
+        <hr/>
+
+        <div class="row">
+            <div class="col-md-6">
+{#                <a href="{% url 'testurl:login' %}" class="btn btn-block btn-info">{% trans 'Log in' %}</a>#}
+
+                <a href="{% url niji_login_url_name %}" class="btn btn-block btn-info">{% trans 'Log in' %}</a>
+            </div>
+            <div class="col-md-6">
+{#                <a href="{% url 'testurl:reg' %}" class="btn btn-block btn-default">{% trans 'Reg' %}</a>#}
+                <a href="{% url niji_reg_url_name %}" class="btn btn-block btn-default">{% trans 'Reg' %}</a>
+            </div>
+        </div>
+        <hr/>
+{#        <p>#}
+{#            <a href="#">Reset Password</a>#}
+{#        </p>#}
+    </div>
+</div>

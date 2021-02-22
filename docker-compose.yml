@@ -1,0 +1,30 @@
+version: "3"
+services:
+    db:
+        image: mysql
+        environment:
+            MYSQL_DATABASE: niji
+            MYSQL_ROOT_PASSWORD: root
+        volumes:
+            - /srv/db:/var/lib/mysql
+        restart: always
+    web:
+        build: ./NijiTest
+        ports:
+            - "8080:8080"
+        volumes:
+            - ./NijiTest:/niji
+            - /tmp/logs:/tmp
+        command: bash start.sh
+    nginx:
+        build: ./nginx
+        ports:
+            - "80:80"
+        volumes:
+            - ./NijiTest/static:/usr/share/nginx/html/static
+            - ./NijiTest/media:/usr/share/nginx/html/media
+        links:
+            - web
+        depends_on:
+            - web
+        restart: always

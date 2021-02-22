@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9d4496f-991d-4180-a783-2761389560b0" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Niji_Test$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1559810267330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/NijiTest$manage.coverage" NAME="manage Coverage Results" MODIFIED="1576744514903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NijiTest$debug.coverage" NAME="debug Coverage Results" MODIFIED="1576744625208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niji/templates/niji/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niji/templates/niji/includes/list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niji/templates/niji/widgets/visitor_user_panel.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niji/templates/niji/topic.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NijiTest/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="173" column="37" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/niji/locale/zh_Hans/LC_MESSAGES/django.po">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7516">
+              <caret line="318" column="33" selection-start-line="318" selection-start-column="27" selection-end-line="318" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221810">
+              <caret line="5416" column="41" selection-start-line="5416" selection-start-column="41" selection-end-line="5416" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niji/templates/niji/node.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="123">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/niji/templates/niji/widgets/nodes.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fields</find>
+      <find>field</find>
+      <find>ReplyForm</find>
+      <find>post</find>
+      <find>model = Post</find>
+      <find>model = post</find>
+      <find>Reply to</find>
+      <find>niji:</find>
+      <find>@</find>
+      <find>notification</find>
+      <find>C:\Users\PC-LJL\PycharmProjects\Niji_Test</find>
+      <find>niji_Test</find>
+      <find>NijiTest</find>
+      <find>添加回复</find>
+      <find>top</find>
+      <find>提交</find>
+      <find>Submit</find>
+      <find>Leave a Reply</find>
+      <find>topic</find>
+      <find>node</find>
+      <find>id=&quot;uedit&quot;</find>
+      <find>创建</find>
+      <find>NIJI is a forum app built with Django</find>
+      <find>Please Login or Create a New User</find>
+      <find>Nodes</find>
+      <find>Topic Date</find>
+      <find>节点</find>
+      <find>No new notifications</find>
+      <find>Order</find>
+      <find>home</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\PC-LJL\PycharmProjects\Niji_Test</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/niji/viwes.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/includes/user_info_panel.html" />
+        <option value="$PROJECT_DIR$/niji/api.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/widgets/node_info.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/widgets/pagedown.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/widgets/visitor_user_panel.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/create_appendix.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/index.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/node.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/search.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/user_topics.html" />
+        <option value="$PROJECT_DIR$/niji/admin.py" />
+        <option value="$PROJECT_DIR$/niji/misc.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/includes/list.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/widgets/authenticated_user_panel.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/widgets/nodes.html" />
+        <option value="$PROJECT_DIR$/niji/tests.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/edit_topic.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/upload_avatar.html" />
+        <option value="$PROJECT_DIR$/niji/urls.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/5o00.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/500.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/404.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/login.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/reg.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/includes/pagination.html" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/create_topic.html" />
+        <option value="$PROJECT_DIR$/Niji_Test/urls.py" />
+        <option value="$PROJECT_DIR$/venv/Lib/site-packages/django/forms/boundfield.py" />
+        <option value="$PROJECT_DIR$/extra_apps/DjangoUeditor/forms.py" />
+        <option value="$PROJECT_DIR$/extra_apps/DjangoUeditor/static/ueditor/themes/iframe.css" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/user_info.html" />
+        <option value="$PROJECT_DIR$/niji/static/niji/css/main.css" />
+        <option value="$PROJECT_DIR$/Niji_Test/settings.py" />
+        <option value="$PROJECT_DIR$/niji/templatetags/niji_tags.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$USER_HOME$/PycharmProjects/Niji_Test/venv/Scripts/Activate.ps1" />
+        <option value="$USER_HOME$/PycharmProjects/Niji_Test/venv/Scripts/activate.bat" />
+        <option value="$USER_HOME$/PycharmProjects/Niji_Test/venv/Scripts/activate" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/base.html" />
+        <option value="$PROJECT_DIR$/niji/forms.py" />
+        <option value="$PROJECT_DIR$/niji/models.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/topic.html" />
+        <option value="$PROJECT_DIR$/niji/views.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/notifications.html" />
+        <option value="$PROJECT_DIR$/locale/zh_hans/LC_MESSAGES/django.po" />
+        <option value="$PROJECT_DIR$/NijiTest/settings.py" />
+        <option value="$PROJECT_DIR$/niji/templates/niji/widgets/visitor_user_panel.html" />
+        <option value="$PROJECT_DIR$/niji/locale/zh_Hans/LC_MESSAGES/django.po" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="889" />
+    <option name="y" value="24" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="zh_hans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="zh_hans" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="zh_Hans" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="locale" type="462c0819:PsiDirectoryNode" />
+              <item name="zh_Hans" type="462c0819:PsiDirectoryNode" />
+              <item name="LC_MESSAGES" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="niji" type="462c0819:PsiDirectoryNode" />
+              <item name="widgets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NijiTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NijiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC-LJL\PycharmProjects\Niji_Test\media\uploads\forum\avatars" />
+      <recent name="C:\Users\PC-LJL\PycharmProjects\Niji_Test\static\image" />
+      <recent name="C:\Users\PC-LJL\PycharmProjects\Niji_Test\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC-LJL\PycharmProjects\Niji_Test\media\image" />
+      <recent name="C:\Users\PC-LJL\PycharmProjects\Niji_Test\niji\static\niji\image" />
+      <recent name="C:\Users\PC-LJL\PycharmProjects\Niji_Test\static\ueditor" />
+      <recent name="C:\Users\PC-LJL\PycharmProjects\Niji_Test\static\js" />
+      <recent name="C:\Users\PC-LJL\PycharmProjects\Niji_Test\extra_apps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.debug">
+    <configuration name="Test: " type="DjangoTestsConfigurationType" temporary="true">
+      <module name="NijiTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="debug" type="PythonConfigurationType" factoryName="Python">
+      <module name="NijiTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\PC-LJL\PycharmProjects\Niji_Test\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="runserver" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Niji_Test" type="Python.DjangoServer" factoryName="Django server">
+      <module name="NijiTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.Niji_Test" />
+      <item itemvalue="Django tests.Test: " />
+      <item itemvalue="Python.debug" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Django tests.Test: " />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9d4496f-991d-4180-a783-2761389560b0" name="Default Changelist" comment="" />
+      <created>1558943206054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558943206054</updated>
+      <workItem from="1558943207332" duration="3144000" />
+      <workItem from="1559006170846" duration="20978000" />
+      <workItem from="1559178295209" duration="17671000" />
+      <workItem from="1559279924131" duration="2201000" />
+      <workItem from="1559524604022" duration="14564000" />
+      <workItem from="1559611528070" duration="3696000" />
+      <workItem from="1559615718874" duration="13090000" />
+      <workItem from="1559696848420" duration="22377000" />
+      <workItem from="1559784036275" duration="20129000" />
+      <workItem from="1559810227039" duration="791000" />
+      <workItem from="1560129824317" duration="14792000" />
+      <workItem from="1560215788820" duration="3707000" />
+      <workItem from="1560308415844" duration="4781000" />
+      <workItem from="1560388758090" duration="15623000" />
+      <workItem from="1560411173345" duration="3942000" />
+      <workItem from="1560474936280" duration="10579000" />
+      <workItem from="1560487643094" duration="225000" />
+      <workItem from="1560488064161" duration="126000" />
+      <workItem from="1560735281410" duration="20726000" />
+      <workItem from="1560820629375" duration="19580000" />
+      <workItem from="1560906975854" duration="5334000" />
+      <workItem from="1560916521896" duration="2101000" />
+      <workItem from="1560923516732" duration="4466000" />
+      <workItem from="1560928030604" duration="3289000" />
+      <workItem from="1560993288307" duration="16322000" />
+      <workItem from="1561079633154" duration="17641000" />
+      <workItem from="1561341247653" duration="10047000" />
+      <workItem from="1561602745774" duration="3957000" />
+      <workItem from="1561619338848" duration="13000" />
+      <workItem from="1561684949639" duration="46000" />
+      <workItem from="1561685132503" duration="15204000" />
+      <workItem from="1561706966287" duration="4094000" />
+      <workItem from="1561944598205" duration="21411000" />
+      <workItem from="1562030828977" duration="16189000" />
+      <workItem from="1567407617510" duration="396000" />
+      <workItem from="1567408034365" duration="187000" />
+      <workItem from="1567408302121" duration="623000" />
+      <workItem from="1568013905418" duration="211000" />
+      <workItem from="1576736762122" duration="8469000" />
+      <workItem from="1576804525396" duration="11338000" />
+      <workItem from="1581470957376" duration="2295000" />
+      <workItem from="1581473353890" duration="2484000" />
+      <workItem from="1581478079883" duration="531000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Test__ - 2019.06.06 at 15h 43m 44s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 15h 45m 32s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 15h 51m 03s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 15h 52m 38s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 15h 52m 49s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 16h 27m 09s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 16h 33m 53s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 16h 36m 34s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 16h 36m 41s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__ - 2019.06.06 at 16h 38m 15s.xml">
+      <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="359370000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19522777" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5767878" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989154" weight="0.3845252" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3587339" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32942554" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5016269" side_tool="true" weight="0.25791326" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4983731" visible="true" weight="0.43259084" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32942554" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32942554" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.11930586" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.329718" />
+      <window_info anchor="right" id="Database" order="4" weight="0.38177875" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/requeriments.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1870323644/.blacklist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="4" column="139" selection-start-line="4" selection-start-column="139" selection-end-line="4" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Scripts/activate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Scripts/activate.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/management/commands/rerender.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1221">
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/includes/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1344" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/widgets/authenticated_user_panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="60" column="27" lean-forward="true" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a5f97cf2-4387-4506-af8a-83cfb907239b/schema/main/table/niji_node" />
+    <entry file="das://a5f97cf2-4387-4506-af8a-83cfb907239b/schema/main/table/niji_appendix" />
+    <entry file="das://a5f97cf2-4387-4506-af8a-83cfb907239b/schema/main/table/niji_forumavatar" />
+    <entry file="das://a5f97cf2-4387-4506-af8a-83cfb907239b/schema/main/table/niji_notification" />
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="7" column="53" selection-start-line="7" selection-start-column="53" selection-end-line="7" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.sqlite3">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="468" column="6" selection-start-line="468" selection-start-column="6" selection-end-line="468" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templatetags/niji_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="446" selection-start-line="446" selection-end-line="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a5f97cf2-4387-4506-af8a-83cfb907239b/schema/main/table/niji_post" />
+    <entry file="das://a5f97cf2-4387-4506-af8a-83cfb907239b/schema/main/table/niji_topic" />
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Lib/site-packages/crispy_forms/helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="221" column="8" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Lib/site-packages/django/forms/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="186" column="37" lean-forward="true" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Lib/site-packages/django/db/models/fields/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="88" column="6" selection-start-line="88" selection-start-column="6" selection-end-line="88" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="490" column="13" selection-start-line="490" selection-start-column="13" selection-end-line="490" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/templates/ueditor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#script#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Lib/site-packages/django/forms/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="234" column="26" selection-start-line="234" selection-start-column="13" selection-end-line="234" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/widgets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="138" column="48" lean-forward="true" selection-start-line="138" selection-start-column="48" selection-end-line="138" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/Niji_Test/venv/Lib/site-packages/django/forms/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="36" column="63" lean-forward="true" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5043">
+          <caret line="137" column="9" selection-start-line="137" selection-start-column="9" selection-end-line="137" selection-end-column="9" />
+          <folding>
+            <element signature="e#24#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5453">
+          <caret line="140" selection-start-line="140" selection-end-line="140" />
+          <folding>
+            <element signature="e#24#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/templates/ueditor_old.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="861">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/notifications.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="56" column="34" selection-start-line="56" selection-start-column="34" selection-end-line="56" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/uploads/forum/avatars/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/locale/en/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12010">
+          <caret line="121" column="8" lean-forward="true" selection-start-line="121" selection-start-column="8" selection-end-line="121" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/topic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/js/vendor/select2/select2.full.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221810">
+          <caret line="5416" column="41" selection-start-line="5416" selection-start-column="41" selection-end-line="5416" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/node.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/widgets/nodes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_hans/LC_MESSAGES/django.mo">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/includes/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/templates/niji/widgets/visitor_user_panel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locale/zh_hans/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53136">
+          <caret line="1233" lean-forward="true" selection-start-line="1233" selection-end-line="1233" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NijiTest/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="173" column="37" selection-start-line="173" selection-start-column="37" selection-end-line="173" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/niji/locale/zh_Hans/LC_MESSAGES/django.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7516">
+          <caret line="318" column="33" selection-start-line="318" selection-start-column="27" selection-end-line="318" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
